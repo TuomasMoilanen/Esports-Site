@@ -1,3 +1,30 @@
+
+@media (max-width: @screen-xs){
+  #watchEsports{
+    font-size: 25%
+  }
+}
+@media (max-width: @screen-sm){
+  #watchEsports{
+    font-size: 35%
+  }
+}
+@media (max-width: @screen-md){
+  #watchEsports{
+    font-size: 100%
+  }
+}
+@media (max-width: @screen-lg){
+  #watchEsports{
+    font-size: 100%
+  }
+}
+@media (max-width: @screen-xl){
+  #watchEsports{
+    font-size: 100%
+  }
+}
+
 body{
   background-color: rgb(130, 130, 130);
 }
@@ -9,8 +36,15 @@ body{
 #eelsportsLogo{
 
 }
+#watchEsportsDiv{
+  padding-left: 100%;
+}
 #watchEsports{
-  font-size: 1em;
+
+}
+#hamburgerContainerPadding{
+  padding-left: 8em;
+  padding-top: 2em;
 }
 #hamburgerContainer{
 
@@ -47,9 +81,6 @@ body{
 }
 #europeContainer{
   background: rgba(56, 179, 232, 0.8);
-}
-#europeTestContainer{
-  margin-top: 50%;
 }
 #route66Container{
   background: url(../images/route66map.jpg) no-repeat;
