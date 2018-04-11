@@ -66,6 +66,9 @@ body{
   padding:5em 0;
   margin:1em;
 }
+.lPanel:hover{
+  opacity: 0.8;
+}
 .lPanel div{
   font-family: 'Gugi';
   color: white;
