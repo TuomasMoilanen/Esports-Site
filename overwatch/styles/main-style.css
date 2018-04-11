@@ -1,32 +1,7 @@
 
-@media (max-width: @screen-xs){
-  #watchEsports{
-    font-size: 25%;
-  }
-}
-@media (max-width: @screen-sm){
-  #watchEsports{
-    font-size: 35%;
-  }
-}
-@media (max-width: @screen-md){
-  #watchEsports{
-    font-size: 100%;
-  }
-}
-@media (max-width: @screen-lg){
-  #watchEsports{
-    font-size: 100%;
-  }
-}
-@media (max-width: @screen-xl){
-  #watchEsports{
-    font-size: 1.4rem;
-  }
-}
-
 body{
   background-color: rgb(130, 130, 130);
+  background-image: url(../images/yellow-water-droplets-background.jpg);
 }
 #topPanel{
   background-color: rgba(0, 0, 0, 0.75);
@@ -40,7 +15,7 @@ body{
   padding-left: 100%;
 }
 #watchEsports{
-  font-size: 1.5rem;
+  font-size: 50px;
 }
 #hamburgerContainerPadding{
   padding-left: 8em;
