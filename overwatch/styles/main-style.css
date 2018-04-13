@@ -1,4 +1,20 @@
 
+@include media-breakpoint-up(xs) {
+
+}
+@include media-breakpoint-up(sm) {
+
+}
+@include media-breakpoint-up(md) {
+
+}
+@include media-breakpoint-up(lg) {
+
+}
+@include media-breakpoint-up(xl) {
+  
+}
+
 body{
   background-color: rgb(130, 130, 130);
   background-image: url(../images/yellow-water-droplets-background.jpg);
@@ -18,7 +34,6 @@ body{
   font-size: 50px;
 }
 #hamburgerContainerPadding{
-  padding-left: 8em;
   padding-top: 1.5em;
 }
 #hamburgerContainer{
@@ -43,22 +58,40 @@ body{
 }
 .lPanel:hover{
   opacity: 0.8;
+  box-shadow: inset 0 0 0 2px black;
 }
 .lPanel div{
   font-family: 'Gugi';
   color: white;
+  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   width:100%;
   height:35%;
   padding:1em 0em;
 }
+.lPanel:hover background{
+  transform: scale(1.2);
+}
 .whiteDiv{
   background-color: white;
   border-radius: 40px;
 }
+.whiteDiv:hover{
+
+}
+.whiteDiv:focus{
+
+}
+.skewLeft{
+  transform: skewX(10deg);
+}
+.skewRight{
+  transform: skewX(-10deg);
+}
 #leagueContainer{
   background: url(../images/league.png) no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #worldContainer{
@@ -66,6 +99,7 @@ body{
 }
 #iliosContainer{
   background: url(../images/iliosmap.jpg) no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #europeContainer{
@@ -73,6 +107,7 @@ body{
 }
 #route66Container{
   background: url(../images/route66map.jpg) no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #americaContainer{
@@ -80,6 +115,7 @@ body{
 }
 #hanamuraContainer{
   background: url(../images/hanamuramap.jpg) no-repeat;
+  background-position: center;
   background-size: cover;
 }
 #asiaContainer{
