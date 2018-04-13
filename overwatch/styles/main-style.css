@@ -53,6 +53,10 @@ body{
   height:35%;
   padding:1em 0em;
 }
+.whiteDiv{
+  background-color: white;
+  border-radius: 40px;
+}
 #leagueContainer{
   background: url(../images/league.png) no-repeat;
   background-size: cover;
