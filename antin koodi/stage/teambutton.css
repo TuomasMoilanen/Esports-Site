@@ -1,0 +1,228 @@
+#bostonbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #174B97;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/page_media/W4FGQ24HKCB51513383982827.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#bostonbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(23,75,151, 0.7), 0 13px 30px 0 rgba(23,75,151, 0.3);
+
+}
+#dallasbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #032340;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#dallasbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(3,35,64, 0.7), 0 13px 30px 0 rgba(3,35,64, 0.3);
+}
+
+#floridabtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #FEDB00;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#floridabtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(254,219,0, 0.7), 0 13px 30px 0 rgba(254,219,0, 0.3);
+}
+
+#houstonbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #97D700;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/page_media/UPM8U5QV3DDU1507858876250.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#houstonbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(151,215,0, 0.7), 0 13px 30px 0 rgba(151,215,0, 0.3);
+}
+
+#londonbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #FF8200;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#londonbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(255,130,0, 0.7), 0 13px 30px 0 rgba(255,130,0, 0.3);
+}
+
+#gladiatorbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #3C1053;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/CHTRRZCBEYGN1507822882862.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#gladiatorbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(60,16,83, 0.7), 0 13px 30px 0 rgba(60,16,83, 0.3);
+}
+
+#valiantbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #4A7729;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#valiantbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(74,119,41, 0.7), 0 13px 30px 0 rgba(74,119,41, 0.3);
+}
+
+#nybtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #171C38;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/page_media/3PBR8VEYM8SH1517250447953.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#nybtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(23,28,56, 0.7), 0 13px 30px 0 rgba(23,28,56, 0.3);
+}
+
+#phillybtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #FF9E1B;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/LAKZ6R7QEG6S1507822883033.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#phillybtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(255,158,27, 0.7), 0 13px 30px 0 rgba(255,158,27, 0.3);
+}
+
+#sanfranbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #FC4C02;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/0SY7LHKHV86R1507822883113.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#sanfranbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(252,76,2, 0.7), 0 13px 30px 0 rgba(252,76,2, 0.3);
+}
+
+#seoulbtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #000000;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#seoulbtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.7), 0 13px 30px 0 rgba(0,0,0, 0.3);
+    c
+}
+
+#shanghaibtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #D22630;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/ZIVUVIWXNIFL1507822883114.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: left;
+  padding-left: 90px;
+  color: black;
+}
+
+#shanghaibtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(210,38,48, 0.7), 0 13px 30px 0 rgba(210,38,48, 0.3);
+}
