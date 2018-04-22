@@ -12,29 +12,24 @@
 
 }
 @include media-breakpoint-up(xl) {
-  
+
 }
 
 body{
   background-color: rgb(130, 130, 130);
   background-image: url(../images/yellow-water-droplets-background.jpg);
 }
-#topPanel{
+nav{
   background-color: rgba(0, 0, 0, 0.75);
-  color: white;
-  text-align: center;
+}
+.container{
+  padding-top: 15%;
 }
 #eelsportsLogo{
 
 }
-#watchEsportsDiv{
-  padding-left: 100%;
-}
 #watchEsports{
-  font-size: 50px;
-}
-#hamburgerContainerPadding{
-  padding-top: 1.5em;
+  color: white;
 }
 #hamburgerContainer{
 
