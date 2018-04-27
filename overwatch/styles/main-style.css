@@ -23,13 +23,14 @@ nav{
   background-color: rgba(0, 0, 0, 0.75);
 }
 .container{
-  padding-top: 15%;
+  padding-top: 5rem;
 }
 #eelsportsLogo{
 
 }
-#watchEsports{
+#chooseRegion{
   color: white;
+  font-size: 250%;
 }
 #hamburgerContainer{
 
@@ -53,7 +54,6 @@ nav{
 }
 .lPanel:hover{
   opacity: 0.8;
-  box-shadow: inset 0 0 0 2px black;
 }
 .lPanel div{
   font-family: 'Gugi';
@@ -71,18 +71,6 @@ nav{
 .whiteDiv{
   background-color: white;
   border-radius: 40px;
-}
-.whiteDiv:hover{
-
-}
-.whiteDiv:focus{
-
-}
-.skewLeft{
-  transform: skewX(10deg);
-}
-.skewRight{
-  transform: skewX(-10deg);
 }
 #leagueContainer{
   background: url(../images/league.png) no-repeat;
