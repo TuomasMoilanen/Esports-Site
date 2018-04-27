@@ -1,32 +1,12 @@
-:root{
-  font-size: 16px;
-}
-html, body{
-  height: auto;
-}
+
 body{
-  background-image: url(images/spaceback.png);
+  background-image: url(../images/spaceback.png);
   background-position: center;
   background-size: cover;
   background-color: #aaa;
   background-attachment: fixed;
   margin: 0 0 0 0;
 }
-
-.header-wrapper{
-  height: 8em;
-}
-.header{  /*This is the navbar section of the page*/
-  position: fixed;
-  width: 100%;
-  background-color: #222;
-  height: 6em;
-  margin-left: 0%;
-  top: 0;
-  text-align: center;
-  /* font-size: 2rem; */
-}
-
 .grid-wrapper{ /*This declares the position of the gamegrid*/
   /* background-color: rgba(0, 0, 0, 0.5); */
   margin: auto;
@@ -44,8 +24,10 @@ body{
 .game { /*These settings are for individual blocks*/
   margin: auto;
   display: grid;
-  /* border-style: solid; */
-  border-width: 0.1em;
+  background-color: #000;
+  border-style: solid;
+  border-width: 1em;
+  border-radius: 3em;
   width: 8rem;
   height: 8rem;
 }
@@ -76,29 +58,30 @@ body{
   background-position: center;
 }
 #game1{
-  background-image: url(images/owlogo.jpg);
+  background-image: url(../images/owlogo.jpg);
   background-size: contain;}
 #game2{
-  background-image: url(images/csgo.png);
+  background-image: url(../images/csgo.png);
   background-size: contain;}
 #game3{
-  background-image: url(images/cod.png);
+  background-image: url(../images/rocketlogo.png);
   background-size: cover;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;}
 #game4{
-  background-image: url(images/dota.png);
+  background-image: url(../images/dota.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;}
 #game5{
-  background-image: url(images/lol.jpg);
+  background-image: url(../images/lol.jpg);
   background-size: contain;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;}
 #game6{
-  background-image: url(images/hstone.png);
+  background-image: url(../images/hstone.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;}
