@@ -60,7 +60,8 @@ html, body{
 }
 
 #logo{
-  width: auto;
+  width: 10rem;
+  height: 5rem;
   color: transparent;
   padding: 1em 1em;
   font-size: 2em;

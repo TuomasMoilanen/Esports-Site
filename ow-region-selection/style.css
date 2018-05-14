@@ -1,0 +1,65 @@
+body{
+  color: white;
+  background: url(../images/spaceback.png) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.regionContainer{
+  margin: 5rem;
+  height: 10rem;
+  width: 25rem;
+  border-radius: 15px;
+}
+.region{
+  width: 100%;
+  height: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50%;
+  text-decoration: none;
+}
+#leagueContainer{
+  background: url(../images/league.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#europeContainer{
+  background: url(../images/iliosmap.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#americaContainer{
+  background: url(../images/route66map.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#asiaContainer{
+  background: url(../images/hanamuramap.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#league{
+  background: rgba(79, 79, 79, 0.7);
+}
+#europe{
+  background: rgba(56, 179, 232, 0.8);
+}
+#america{
+  background: rgba(245, 82, 47, 0.8);
+}
+#asia{
+  background: rgba(245, 162, 192, 0.8);
+}
+.grid-wrapper{ /*This declares the position of the gamegrid*/
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  max-width: 25rem;
+  min-width: 20rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-gap: 2rem;
+}
