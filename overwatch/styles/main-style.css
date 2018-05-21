@@ -15,6 +15,11 @@ body{
     border-style: none;
     border-color: rgba(255, 255, 255, 0.2);
 }
+#logo{
+  padding: none;
+  width: 152.88px;
+  height: 96px;
+}
 a:hover{
   text-decoration: none;
   color: white;
