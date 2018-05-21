@@ -1,49 +1,30 @@
 
-@include media-breakpoint-up(xs) {
-
-}
-@include media-breakpoint-up(sm) {
-
-}
-@include media-breakpoint-up(md) {
-
-}
-@include media-breakpoint-up(lg) {
-
-}
-@include media-breakpoint-up(xl) {
-
-}
-
 body{
   background-color: rgb(130, 130, 130);
   background-image: url(../../images/spaceback.png);
+  text-decoration: none !important;
 }
-nav{
-  background-color: rgba(0, 0, 0, 0.75);
+.header-item{
+    float: right;
+    width: none;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding: 2.5em 1em;
+    text-decoration: none;
+    border-style: none;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+a:hover{
+  text-decoration: none;
+  color: white;
 }
 .container{
   padding-top: 5rem;
 }
-#eelsportsLogo{
-
-}
 #chooseRegion{
   color: white;
   font-size: 250%;
-}
-#hamburgerContainer{
-
-}
-#hamburgerContainer:hover{
-  cursor: pointer;
-}
-.hamburger{
-  background-color: white;
-  width: 35px;
-  height: 5px;
-  margin: 6px 0;
-  border-radius: 15px;
 }
 .lPanel{
   width:100%;
@@ -58,7 +39,6 @@ nav{
 .lPanel div{
   font-family: 'Gugi';
   color: white;
-  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   width:100%;
