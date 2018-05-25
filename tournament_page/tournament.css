@@ -77,12 +77,22 @@ html {
 }
 
 body {
-  background-image: url("images/ilios-map.jpg");
+  background-image: url("images/blizzard-world.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  --league-banner: #FEFEFE;
+  --league-button-border: #35383C;
+  --league-weekbtn: #ff8c00;
+  --league-playoffbtn: #cc7000;
+  --league-semibtn: #995400;
+  --league-finalbtn: #663800;
+  --league-stagebtn: #c9cccf;
+  --league-font: #FEFEFE;
+  --league-stagefont: #35383c;
 }
+
 
 #bcButton {
   font-size: 150%;
@@ -109,7 +119,7 @@ justify-content: center;
 
 .tournament_header {
 height: 120px;
-background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+background-image: url("images/overwatchleague.png"), url("images/overwatch_02.png");
 background-position: left, right;
 background-size: contain;
 background-repeat: no-repeat;
@@ -117,14 +127,14 @@ background-repeat: no-repeat;
 border: 10px solid rgba(0,0,0,0);
 position: relative;
 border-radius: 15px;
-background-color: #38B3E8;
+background-color: var(--league-banner);
 box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
 margin-bottom: 10px;
 }
 
 .tournament_header2 {
   height: 120px;
-  background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+  background-image: url("images/overwatchleague.png"), url("images/overwatch_02.png");
   background-position: left, right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -132,7 +142,7 @@ margin-bottom: 10px;
   border: 10px solid rgba(0,0,0,0);
   position: relative;
   border-radius: 15px;
-  background-color: #38B3E8;
+  background-color: var(--league-banner);
   box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
   margin-bottom: 10px;
 }
@@ -152,21 +162,21 @@ justify-content: center;
 
 .empty {
   font-size: 2em;
-  color: #D6AB85;
+  color: var(--league-font);
   background-color: rgba(0, 0, 0, 0.65);
   border-radius: 15px;
 }
 
 .game_header {
   height: 120px;
-  background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+  background-image: url("images/overwatchleague.png"), url("images/overwatch_02.png");
   background-position: left, right;
   background-size: contain;
   background-repeat: no-repeat;
   border: 10px solid rgba(0,0,0,0);
   position: relative;
   border-radius: 15px;
-  background-color: #38B3E8;
+  background-color: var(--league-banner);
   box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
   margin-bottom: 10px;
   font-family: 'Gugi', cursive;
@@ -187,7 +197,8 @@ justify-content: center;
   border-radius: 15px;
   box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.65);
   padding: 10px;
-  background-color: #38B3E8;
+  background-color: var(--league-banner);
+  color: #FD9E2A;
 }
 
 #header_text:hover {
@@ -197,11 +208,11 @@ justify-content: center;
 .weeksButton{
   width: 90px;
   height: 50px;
-  background-color: #1375a0;
-  color: #F2F2F2;
+  background-color: var(--league-weekbtn);
+  color: var(--league-font);
   border-radius: 15px;
   box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
-  border: 2px solid #D6AB85;
+  border: 2px solid var(--league-button-border);
   font-family: 'Gugi', cursive;
   font-size: 1em;
 }
@@ -218,35 +229,35 @@ justify-content: center;
 
 .playoff {
   width: 145px;
-  background-color: #0d5472;
+  background-color: var(--league-playoffbtn);
 }
 
 .semifinal {
   width: 180px;
-  background-color: #083244;
+  background-color: var(--league-semibtn);
 }
 
 .final {
   width: 240px;
-  background-color: #031117;
+  background-color: var(--league-finalbtn);
   font-size: 1.2em;
 }
 
 .stagesButton {
   width: 90px;
   height: 50px;
-  background-color: #bbe5f7;
-  color: #05222e;
+  background-color: var(--league-stagebtn);
+  color: var(--league-stagefont);
   border-radius: 15px;
   box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
   border: 0px solid rgba(0,0,0,0);
   font-family: 'Gugi', cursive;
   font-size: 1em;
-  border: 2px solid #F2F2F2;
+  border: 2px solid var(--league-button-border);
 }
 
 .weeks_grid {
-  color: #D6AB85;
+  color: var(--league-font);
   grid-column-start: 1;
     grid-column-end: 6;
   display: grid;
@@ -271,8 +282,8 @@ justify-content: center;
   .gameButton {
     width: 90px;
     height: 50px;
-    background-color: #38B3E8;
-    color: #F2F2F2;
+    background-color: var(--league-font);
+    color: var(--league-stagefont);
     border-radius: 15px;
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
     border: 0px solid rgba(0,0,0,0);
@@ -281,11 +292,11 @@ justify-content: center;
   }
 
   .gameButton:hover {
-      box-shadow: 0 8px 12px 0 rgba(23,75,151, 0.7), 0 13px 30px 0 rgba(23,75,151, 0.3);
+      box-shadow: 0 8px 12px 0 rgba(255, 161, 44, 0.7), 0 13px 30px 0 rgba(255, 161, 44, 0.3);
   }
 
 .videos_grid {
-  color: #D6AB85;
+  color: var(--league-font);
   grid-column-start: 1;
     grid-column-end: 6;
   display: grid;

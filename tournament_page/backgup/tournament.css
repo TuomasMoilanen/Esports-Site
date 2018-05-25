@@ -1,0 +1,317 @@
+/* Hnngh */
+:root{
+  font-size: 16px;}
+html, body{
+  height: auto;}
+*:focus{outline: 0;}
+*:visited{color: inherit;}
+.pseudo-top{height: 8rem; visibility: hidden;}
+
+.header-motto{
+  display: grid;
+  grid-template-columns: 3fr 4fr 3fr;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 6rem;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.5);
+  z-index: 1;
+}
+.header-motto-text{
+  grid-column-start: 2;
+  margin: auto;
+}
+
+
+.header{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 6rem;
+  z-index: 2;
+}
+
+.header-item {
+  float: right;
+  width: 4em;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  padding: 2.5em 1em;
+  text-decoration: none;
+  /* border-style: solid; */
+
+  border-color: rgba(0, 0, 0, 0.9);
+}
+.header-item:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#dropmenu{
+  visibility: hidden;
+}
+
+#logo{
+  width: auto;
+  color: transparent;
+  padding: 1em 1em;
+  font-size: 2em;
+  float: left;
+  background-image: url(../images/eelsports02.png);
+  background-size: contain;
+  border-style: none;
+}
+
+html {
+  font-family: 'Gugi', cursive;
+  color: white;
+}
+
+body {
+  background-image: url("images/ilios-map.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bcButton {
+  font-size: 150%;
+  font-family: 'Gugi', cursive;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 15px;
+  padding: 5px;
+  color: rgba(250, 250, 250, 0.9);;
+}
+
+.tournament_grid {
+display: grid;
+grid-template-columns: 1fr;
+align-content: space-evenly;
+grid-row-gap: 5px;
+background-color: none;
+padding: 0;
+margin: 0;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.tournament_header {
+height: 120px;
+background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+background-position: left, right;
+background-size: contain;
+background-repeat: no-repeat;
+/* z-index: 2; */
+border: 10px solid rgba(0,0,0,0);
+position: relative;
+border-radius: 15px;
+background-color: #38B3E8;
+box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+margin-bottom: 10px;
+}
+
+.tournament_header2 {
+  height: 120px;
+  background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+  background-position: left, right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* z-index: 2; */
+  border: 10px solid rgba(0,0,0,0);
+  position: relative;
+  border-radius: 15px;
+  background-color: #38B3E8;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+  margin-bottom: 10px;
+}
+
+.games_grid {
+display: grid;
+grid-template-columns: 1fr;
+align-content: space-evenly;
+grid-row-gap: 5px;
+background-color: none;
+padding: 0;
+margin: 0;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.empty {
+  font-size: 2em;
+  color: #D6AB85;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 15px;
+}
+
+.game_header {
+  height: 120px;
+  background-image: url("images/contenders.png"), url("images/overwatch_02.png");
+  background-position: left, right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 10px solid rgba(0,0,0,0);
+  position: relative;
+  border-radius: 15px;
+  background-color: #38B3E8;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+  margin-bottom: 10px;
+  font-family: 'Gugi', cursive;
+}
+
+.tournament_header:hover, .tournament_header2:hover,.game_header:hover {
+    /* opacity: 0.8; */
+}
+
+#header_text {
+  font-size: 1.35em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.65);
+  padding: 10px;
+  background-color: #38B3E8;
+}
+
+#header_text:hover {
+  opacity: 0.7;
+}
+
+.weeksButton{
+  width: 90px;
+  height: 50px;
+  background-color: #1375a0;
+  color: #F2F2F2;
+  border-radius: 15px;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+  border: 2px solid #D6AB85;
+  font-family: 'Gugi', cursive;
+  font-size: 1em;
+}
+
+.weeksButton:hover{
+  opacity: 0.7;
+
+}
+
+.weeksButton:focus {
+  opacity: 0.7;
+
+}
+
+.playoff {
+  width: 145px;
+  background-color: #0d5472;
+}
+
+.semifinal {
+  width: 180px;
+  background-color: #083244;
+}
+
+.final {
+  width: 240px;
+  background-color: #031117;
+  font-size: 1.2em;
+}
+
+.stagesButton {
+  width: 90px;
+  height: 50px;
+  background-color: #bbe5f7;
+  color: #05222e;
+  border-radius: 15px;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+  border: 0px solid rgba(0,0,0,0);
+  font-family: 'Gugi', cursive;
+  font-size: 1em;
+  border: 2px solid #F2F2F2;
+}
+
+.weeks_grid {
+  color: #D6AB85;
+  grid-column-start: 1;
+    grid-column-end: 6;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(50px, 1fr) );
+  background-color: none;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+    }
+
+.stages_grid {
+  grid-column-start: 1;
+    grid-column-end: 6;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(50px, 1fr) );
+  background-color: none;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+    }
+
+  .gameButton {
+    width: 90px;
+    height: 50px;
+    background-color: #38B3E8;
+    color: #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.65);
+    border: 0px solid rgba(0,0,0,0);
+    font-family: 'Gugi', cursive;
+    font-size: 1em;
+  }
+
+  .gameButton:hover {
+      box-shadow: 0 8px 12px 0 rgba(23,75,151, 0.7), 0 13px 30px 0 rgba(23,75,151, 0.3);
+  }
+
+.videos_grid {
+  color: #D6AB85;
+  grid-column-start: 1;
+    grid-column-end: 6;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(50px, 1fr) );
+  background-color: none;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 15px;
+    }
+
+#teamBtn {
+  width: 250px;
+  height: 100px;
+  border-radius: 12px;
+  border: solid 6px #174B97;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gugi";
+  text-align: center;
+  color: black;
+}
+
+#teamBtn:hover {
+    box-shadow: 0 8px 12px 0 rgba(23,75,151, 0.7), 0 13px 30px 0 rgba(23,75,151, 0.3);
+
+}
